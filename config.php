@@ -2,20 +2,13 @@
 
 // เชื่อมต่อกับฐานข้อมูล
 function getDatabaseConnection() {
-/*
+
     // ปรับค่าการเชื่อมต่อฐานข้อมูลตามที่ต้องการ
-    $host = 'mysql-2afd1ff8-iunlimite.e.aivencloud.com';  // ชื่อโฮสต์หรือ IP
-    $username = 'avnadmin';           // ชื่อผู้ใช้
-    $password = 'AVNS_XgH4NLuddeADvDVG6QL';  // รหัสผ่าน
-    $dbname = 'defaultdb';    // ชื่อฐานข้อมูล
-    $port = '12073';                 // ระบุหมายเลข port
-*/
-    // ปรับค่าการเชื่อมต่อฐานข้อมูลตามที่ต้องการ
-    $host = 'localhost';  // ชื่อโฮสต์หรือ IP
-    $username = 'root';           // ชื่อผู้ใช้
-    $password = '@passwordMy';  // รหัสผ่าน
-    $dbname = 'myupload';    // ชื่อฐานข้อมูล
-    $port = '3306';                 // ระบุหมายเลข port
+    $host = '';  // ชื่อโฮสต์หรือ IP
+    $username = '';           // ชื่อผู้ใช้
+    $password = '';  // รหัสผ่าน
+    $dbname = '';    // ชื่อฐานข้อมูล
+    $port = '';                 // ระบุหมายเลข port
 
      // สร้างการเชื่อมต่อ
     $conn = new mysqli($host, $username, $password, $dbname, $port);
